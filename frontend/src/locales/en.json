@@ -1,1 +1,1 @@
-{ "title": "PantryPilot" }
+{ "title": "PantryPilot", "name": "Product Name", "barcode": "Barcode", "quantity": "Quantity", "location": "Location", "expiration": "Expiration Date", "submit": "Submit", "product": "Product" }

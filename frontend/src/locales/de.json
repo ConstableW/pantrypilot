@@ -1,1 +1,1 @@
-{ "title": "PantryPilot (DE)" }
+{ "title": "PantryPilot", "name": "Produktname", "barcode": "Barcode", "quantity": "Menge", "location": "Lagerort", "expiration": "Ablaufdatum", "submit": "Einbuchen", "product": "Produkt" }
