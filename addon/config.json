@@ -1,16 +1,16 @@
 {
-  "name": "PantryPilot",
+  "name": "PantryPilot Safe",
   "version": "0.1.1",
   "slug": "pantrypilot_safe",
-  "description": "Smart inventory tracking and pantry assistant",
-  "startup": "services",
+  "description": "Pantry inventory backend for Home Assistant",
+  "startup": "application",
   "boot": "auto",
-  "homeassistant": "2023.0.0",
-  "arch": ["amd64", "armv7", "aarch64"],
+  "homeassistant": "2023.12.0",
+  "arch": [ "aarch64", "amd64" ],
   "ports": {
     "8010/tcp": 8010
   },
-  "map": ["config:rw", "ssl", "addons:rw"],
   "options": {},
-  "schema": {}
+  "schema": {},
+  "image": "f182274e/{arch}-addon-pantrypilot_safe"
 }
