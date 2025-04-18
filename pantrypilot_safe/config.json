@@ -15,5 +15,4 @@
   "homeassistant_api": false,
   "host_network": false,
   "privileged": [],
-  "image": "local/pantrypilot_safe"
 }
