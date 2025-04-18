@@ -1,12 +1,19 @@
-name: PantryPilot Safe
-version: "0.1.1"
-slug: pantrypilot_safe
-description: "Pantry inventory backend for Home Assistant"
-startup: application
-boot: auto
-arch:
-  - aarch64
-  - amd64
-host_network: true
-options: {}
-schema: {}
+{
+  "name": "PantryPilot Safe",
+  "version": "0.1.1",
+  "slug": "pantrypilot_safe",
+  "description": "Local pantry inventory add-on",
+  "arch": ["aarch64", "amd64", "armv7"],
+  "startup": "application",
+  "boot": "auto",
+  "ports": {
+    "8000/tcp": 8000
+  },
+  "ingress": false,
+  "panel_icon": "mdi:food-variant",
+  "panel_title": "PantryPilot",
+  "homeassistant_api": false,
+  "host_network": false,
+  "privileged": [],
+  "image": "local/pantrypilot_safe"
+}
