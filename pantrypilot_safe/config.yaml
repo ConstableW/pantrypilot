@@ -1,0 +1,12 @@
+name: PantryPilot Safe
+version: "0.1.1"
+slug: pantrypilot_safe
+description: "Pantry inventory backend for Home Assistant"
+startup: application
+boot: auto
+arch:
+  - aarch64
+  - amd64
+host_network: true
+options: {}
+schema: {}

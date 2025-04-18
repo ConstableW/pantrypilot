@@ -4,4 +4,4 @@ app = FastAPI()
 
 @app.get("/")
 def read_root():
-    return {"message": "PantryPilot Safe API is running"}
+    return {"message": "PantryPilot Safe is running!"}
