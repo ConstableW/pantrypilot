@@ -1,6 +1,6 @@
 {
   "name": "PantryPilot",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "slug": "pantrypilot",
   "description": "Smart inventory tracking and pantry assistant",
   "startup": "services",
