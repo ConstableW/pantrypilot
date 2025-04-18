@@ -1,2 +1,3 @@
 # PantryPilot
-Smart inventory & pantry management system for Home Assistant.
+
+Smart inventory tracking and pantry assistant for Home Assistant.
