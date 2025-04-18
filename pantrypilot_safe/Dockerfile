@@ -3,7 +3,7 @@ FROM $BUILD_FROM
 
 WORKDIR /app
 COPY . /app/
-COPY rootfs / # Wichtig: rootfs wird korrekt eingebunden
+COPY rootfs /  # Kopiert rootfs/run.sh nach /run.sh
 
 RUN apk add --no-cache python3 py3-pip \
     && pip install --upgrade pip --break-system-packages \
