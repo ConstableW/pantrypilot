@@ -3,5 +3,5 @@ from fastapi import FastAPI
 app = FastAPI()
 
 @app.get("/")
-async def root():
-    return {"message": "PantryPilot Safe backend is alive!"}
+def read_root():
+    return {"message": "PantryPilot Safe API is running"}

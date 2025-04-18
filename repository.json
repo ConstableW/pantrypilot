@@ -1,5 +1,1 @@
-{
-  "name": "ConstableW Add-ons",
-  "url": "https://github.com/ConstableW/pantrypilot",
-  "maintainer": "ConstableW"
-}
+{"name": "PantryPilot Repository", "url": "https://github.com/ConstableW/pantrypilot", "maintainer": "ConstableW", "addons": ["pantrypilot_safe"]}
