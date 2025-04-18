@@ -1,13 +1,13 @@
 name: PantryPilot Safe
 version: "0.1.1"
 slug: pantrypilot_safe
-description: A secure inventory management backend
+description: "Inventory add-on for Home Assistant with FastAPI backend."
+url: "https://github.com/ConstableW/pantrypilot"
 arch:
   - aarch64
+  - amd64
 startup: services
 boot: auto
-ports:
-  8010/tcp: 8010
-image: ghcr.io/constablew/pantrypilot_safe_{arch}
-build_from:
-  aarch64: https://github.com/ConstableW/pantrypilot.git#main
+host_network: true
+options: {}
+schema: {}
