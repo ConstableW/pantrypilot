@@ -1,7 +1,7 @@
 {
   "name": "PantryPilot",
   "version": "0.1.1",
-  "slug": "pantrypilot",
+  "slug": "pantrypilot_safe",
   "description": "Smart inventory tracking and pantry assistant",
   "startup": "services",
   "boot": "auto",
